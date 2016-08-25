@@ -4,5 +4,5 @@ function button() {
 	var out = parseFloat(number1) * parseFloat(number2);
 	document.getElementById('output').innerText = out;
 	var message = "Yay I did it!";
-	document.getElementByID('MessageBox').innerText = message;
+	document.getElementByID('MessageBox').innerText = Message;
 }
